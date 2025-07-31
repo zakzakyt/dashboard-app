@@ -1,0 +1,48 @@
+/* ブラウザで設定されているスタイルのリセット・共通設定 */
+/* 消さないでください */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form,
+input,
+textarea,
+select,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+/* スタイルのリセット終了 */
+
+/* サイドバーとメインコンテンツを包むための要素のスタイルを書いてください */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* サイドバーに関連するスタイルを書いてください */
+.sidebar {
+  width: 256px;
+}
+
+/* メインコンテンツに関連するスタイルを書いてください */
+.main-content {
+  flex: 1;
+  font-size: 40px;
+  color:rgb(255, 0, 221);
+}
+
+
